@@ -41,6 +41,7 @@ public class P1 {
 			}
 			System.out.println();
 		}
+		sc.close();
 	}
 
 }

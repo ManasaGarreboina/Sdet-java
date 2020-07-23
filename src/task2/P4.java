@@ -33,5 +33,6 @@ public class P4 {
 			if (string[i] != ' ' && string[i] != '0')
 				System.out.println(string[i] + "-" + freq[i]);
 		}
+		sc.close();
 	}
 }

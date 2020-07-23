@@ -7,7 +7,7 @@ public class P2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
-		int m, n, row, col, sum = 0, row_ind = 0, col_ind = 0;
+		int m, n, row, col, sum = 0;
 		System.out.println("ROWS AND COLUMNS: ");
 		m = sc.nextInt();
 		n = sc.nextInt();
@@ -48,7 +48,8 @@ public class P2 {
 			col_arr[y++] = sum;
 
 		}
-
+		sc.close();
 	}
+	
 
 }

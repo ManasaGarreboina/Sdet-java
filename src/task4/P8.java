@@ -26,5 +26,6 @@ public class P8 {
 		System.out.println("Array after pushing zeros to the back: ");
 		for (int i = 0; i < size; i++)
 			System.out.print(myArray[i] + " ");
+		sc.close();
 	}
 }

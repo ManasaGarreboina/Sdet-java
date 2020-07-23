@@ -35,7 +35,7 @@ public class P2 {
 
 		// Displaying the result
 		displayProduct(product);
-
+		sc.close();
 	}
 
 	public static int[][] multiplyMatrices(int[][] firstMatrix, int[][] secondMatrix, int r1, int c1, int c2) {

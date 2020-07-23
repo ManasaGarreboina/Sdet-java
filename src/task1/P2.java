@@ -17,7 +17,7 @@ public class P2 {
 		}
 		System.out.print("Array Reversed :");
 		for (int k = 0; k < n; k++) {
-			System.out.print(b[k]+" ");
+			System.out.print(b[k] + " ");
 		}
 	}
 

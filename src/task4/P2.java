@@ -1,6 +1,5 @@
 package task4;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class P2 {
@@ -11,8 +10,7 @@ public class P2 {
 			if (arr[i] > first) {
 				second = first;
 				first = arr[i];
-			}
-			else if (arr[i] > second && arr[i] != first)
+			} else if (arr[i] > second && arr[i] != first)
 				second = arr[i];
 		}
 
@@ -33,5 +31,6 @@ public class P2 {
 
 		}
 		print2largest(arr, arraysize);
+		sc.close();
 	}
 }

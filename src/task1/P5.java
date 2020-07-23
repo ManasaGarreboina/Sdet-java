@@ -7,18 +7,21 @@ public class P5 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
+		System.out.println("enter testcases: ");
 		int t = sc.nextInt();
 		if (t >= 1 && t <= 100) {
 			while (t-- > 0) {
+				System.out.println("enter number: ");
 				int n = sc.nextInt();
 				if (n > 0 && n <= 1018)
 					if (isPowerOfTwo(n)) {
-						System.out.print("YES"+" ");
+						System.out.println("YES" + " ");
 					} else {
-						System.out.print("NO"+" ");
+						System.out.println("NO" + " ");
 					}
 			}
 		}
+		sc.close();
 	}
 
 	static boolean isPowerOfTwo(int n) {

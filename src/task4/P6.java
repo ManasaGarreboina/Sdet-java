@@ -18,8 +18,9 @@ public class P6 {
 
 	public static void main(String args[]) {
 		Scanner sc = new Scanner(System.in);
-		 System.out.println("enter input:");
+		System.out.println("enter input:");
 		int N = sc.nextInt();
 		System.out.println(isBinaryNumber(N));
+		sc.close();
 	}
 }

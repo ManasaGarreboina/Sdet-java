@@ -19,5 +19,6 @@ public class P7 {
 			System.out.println("Strings are rotations of each other");
 		else
 			System.out.printf("Strings are not rotations of each other");
+		sc.close();
 	}
 }

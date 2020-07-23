@@ -20,7 +20,7 @@ public class P3 {
 		System.out.println("Duplicate Characters In " + inputString);
 		for (Character ch : charsInString) {
 			System.out.println(ch + " : " + charCountMap.get(ch));
-			
+
 		}
 	}
 
@@ -29,5 +29,6 @@ public class P3 {
 		System.out.println("enter string: ");
 		String str = sc.nextLine();
 		CharCount(str);
+		sc.close();
 	}
 }

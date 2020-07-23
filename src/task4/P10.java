@@ -35,6 +35,7 @@ public class P10 {
 		System.out.println("enter string: ");
 		String str = sc.next();
 		firstRepeatedNonRepeatedChar(str);
+		sc.close();
 
 	}
 }

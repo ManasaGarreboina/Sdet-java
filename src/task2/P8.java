@@ -10,7 +10,7 @@ public class P8 {
 		final int s1 = sc.nextInt();
 		System.out.println("size of 2nd array: ");
 		final int s2 = sc.nextInt();
-		
+
 		int[] array1 = new int[s1];
 		int[] array2 = new int[s2];
 		System.out.println("FirstArray: ");
@@ -30,5 +30,6 @@ public class P8 {
 		System.arraycopy(array2, 0, result, aLen, bLen);
 
 		System.out.println(Arrays.toString(result));
+		sc.close();
 	}
 }

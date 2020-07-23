@@ -27,5 +27,6 @@ public class P9 {
 			}
 		}
 		System.out.println("Longest repeating sequence: " + result);
+		sc.close();
 	}
 }

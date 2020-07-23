@@ -24,5 +24,6 @@ public class P9 {
 		}
 		int miss = getMissingNo(myArray, size);
 		System.out.println("Missing Number is: " + miss);
+		sc.close();
 	}
 }

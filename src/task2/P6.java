@@ -12,6 +12,7 @@ public class P6 {
 		str = str.replaceAll("\\s", "");
 
 		System.out.println(str);
+		sc.close();
 
 	}
 

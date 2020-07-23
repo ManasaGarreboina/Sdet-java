@@ -35,5 +35,6 @@ public class P8 {
 				System.out.print(B[i][j] + " ");
 			System.out.println(" ");
 		}
+		sc.close();
 	}
 }

@@ -30,5 +30,6 @@ public class P1 {
 		System.out.println("enter string: ");
 		String str = sc.nextLine();
 		duplicateCharCount(str);
+		sc.close();
 	}
 }

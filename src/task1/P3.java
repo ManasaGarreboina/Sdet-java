@@ -1,6 +1,7 @@
 package task1;
 
 import java.util.Arrays;
+
 import java.util.Scanner;
 
 public class P3 {
@@ -12,7 +13,6 @@ public class P3 {
 		int query = sc.nextInt();
 
 		int secondsmall = 0;
-		int sa[] = new int[arraysize];
 		// System.out.println(query);
 		int[] arr = new int[arraysize];
 		int test[] = new int[query];
@@ -32,7 +32,7 @@ public class P3 {
 			}
 			System.out.println(secondsmall);
 		}
-
+		sc.close();
 	}
 
 }

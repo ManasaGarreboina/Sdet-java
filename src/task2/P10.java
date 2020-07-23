@@ -1,5 +1,7 @@
 package task2;
 
+import java.util.ArrayList;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -26,27 +28,31 @@ public class P10 {
 			}
 			Arrays.sort(arr);
 			int[] resarr = new int[arrsize];
-			int[] resarr1 = new int[pop];
-			int[] es = new int[pop];
-			int os,c=0,res=0;
+			int c = 0,es=0,res = 0;
+			ArrayList<Integer> array_list = new ArrayList<Integer>(subsize);
 			for (int i = 0; i < arrsize; i++) {
 				for (int j = i + 1; j < arrsize; j++) {
-					//System.out.println("[" + arr[i] + "," + arr[j] + "]");
-					//{1,2}    {1,4}    {1,5}    {2,4}    {2,5}    {4,5}  
+					// System.out.println("[" + arr[i] + "," + arr[j] + "]");
+					// {1,2}    {1,4}    {1,5}    {2,4}    {2,5}    {4,5}  
 					c++;
-					if(c<=pop){
-						resarr[i]=arr[i];
-						resarr[j]=arr[j];
-						es[i] =resarr[i]+resarr[j];
-					
-						System.out.println("[" + resarr[i] + "," + resarr[j] + "]"+" "+es[i]+" ");
-						
-					}		
+					if (c <= pop) {
+
+						resarr[i] = arr[i];
+						resarr[j] = arr[j];
+						array_list.add(new Integer(resarr[i] + resarr[j]));
+					//	System.out.println("[" + resarr[i] + "," + resarr[j] + "]" + " " + " ");
+
+					}
 				}
 			}
-			
-			
+			//System.out.println(array_list);
+			for (int i =0 ; i <array_list.size(); i++) {
+				es= array_list.get(i);
+				res=es-res;		
+			}
+			System.out.println("Amount which he needs to subtract to get the correct result is : "+res);
 		}
+		sc.close();
 	}
 
 }

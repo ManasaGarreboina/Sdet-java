@@ -36,6 +36,7 @@ public class P3 {
 				System.out.print(B[i][j] + " ");
 			System.out.println(" ");
 		}
+		sc.close();
 	}
 
 }

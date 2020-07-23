@@ -29,6 +29,7 @@ public class P4 {
 		int sum = sc.nextInt();
 		pairs_value(arr, sum);
 		// 4, 5, 7, 11, 9, 13, 8, 12 sum 20
+		sc.close();
 
 	}
 }
